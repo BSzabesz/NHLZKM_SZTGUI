@@ -1,0 +1,48 @@
+{
+  "year": 2025,
+  "totalBudget": 1500000,
+  "team": {
+    "teamName": "AMG Mercedes"
+  },
+  "budgetItems": [
+    {
+      "category": "Engine Development",
+      "amount": 500000,
+      "approvalStatus": "Approved",
+      "expenseDate": "2025-01-15T00:00:00",
+      "subcategories": [
+        {
+          "name": "Turbocharger",
+          "amount": 150000
+        },
+        {
+          "name": "Fuel System",
+          "amount": 350000
+        }
+      ]
+    },
+    {
+      "category": "Aerodynamics",
+      "amount": 400000,
+      "approvalStatus": "Pending",
+      "expenseDate": "2025-02-10T00:00:00",
+      "subcategories": [
+        {
+          "name": "Front Wing",
+          "amount": 200000
+        },
+        {
+          "name": "Rear Wing",
+          "amount": 200000
+        }
+      ]
+    },
+    {
+      "category": "Logistics",
+      "amount": 600000,
+      "approvalStatus": "Approved",
+      "expenseDate": "2025-03-05T00:00:00",
+      "subcategories": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "teamName": "Scuderia Ferrari",
+  "year": 2024,
+  "headquarters": "Maranello, Italy",
+  "teamPrincipal": "Frédéric Vasseur",
+  "constructorsChampionshipWins": 16,
+  "budget": {
+    "totalBudget": 150000000,
+    "expenses": [
+      {
+        "category": "Car Development",
+        "amount": 50000000,
+        "approvalStatus": "Approved",
+        "expenseDate": "2025-01-15",
+        "subcategory": [
+          {
+            "name": "Aerodynamics",
+            "amount": 20000000
+          },
+          {
+            "name": "Engine",
+            "amount": 15000000
+          },
+          {
+            "name": "Chassis",
+            "amount": 15000000
+          }
+        ]
+      },
+      {
+        "category": "Personnel",
+        "amount": 20000000,
+        "approvalStatus": "Pending",
+        "expenseDate": "2024-02-01",
+        "subcategory": [
+          {
+            "name": "Driver",
+            "amount": 15000000
+          },
+          {
+            "name": "Engineer",
+            "amount": 10000000
+          },
+          {
+            "name": "Pit Crew",
+            "amount": 75000000
+          }
+        ]
+      },
+      {
+        "category": "Operations",
+        "amount": 65000000,
+        "approvalStatus": "Approved",
+        "expenseDate": "2024-05-10",
+        "subcategory": [
+          {
+            "name": "Logistics",
+            "amount": 15000000
+          },
+          {
+            "name": "Marketing",
+            "amount": 20000000
+          },
+          {
+            "name": "Travel",
+            "amount": 30000000
+          }
+        ]
+      }
+    ]
+  }
+}
