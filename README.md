@@ -1,1 +1,2 @@
 # NHLZKM_SZTGUI
+Balogh Szabolcs NHLZKM
