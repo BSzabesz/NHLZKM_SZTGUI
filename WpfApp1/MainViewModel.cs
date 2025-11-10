@@ -193,7 +193,7 @@ namespace WpfApp1
                     SelectedBudget.Year = UpdateYear.Value;
 
                 _budgetService.UpdateAnnualBudget(SelectedBudget);
-                MessageBox.Show("Annual budget updated.", "OK");
+                MessageBox.Show("Sikeres frissités.", "OK");
             }
             catch (Exception ex)
             {
@@ -235,7 +235,7 @@ namespace WpfApp1
             {
                 var item = new BudgetItem { Category = NewItemCategory!, Amount = NewItemAmount.Value };
                 _itemService.CreateBudgetItem(item);
-                MessageBox.Show("Item created successfully.", "OK");
+                MessageBox.Show("Sikeres létrehozás.", "OK");
                 LoadItems();
                 NewItemCategory = null;
                 NewItemAmount = null;
