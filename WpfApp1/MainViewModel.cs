@@ -118,7 +118,7 @@ namespace WpfApp1
 
                 _teamService.CreateTeam(team);
 
-                MessageBox.Show("Team created successfully.", "OK");
+                MessageBox.Show("Sikeres létrehozás.", "OK");
                 Teams.Clear();
                 foreach (var t in _teamService.GetAllTeams()) Teams.Add(t);
 
