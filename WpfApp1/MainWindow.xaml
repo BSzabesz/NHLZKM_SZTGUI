@@ -126,7 +126,6 @@
                     </GroupBox>
 
 
-                    <TextBlock Grid.Row="4" Foreground="Gray" Text="Tip: a keresés lapozható (10 elem/oldal)." />
                 </Grid>
             </TabItem>
 
